@@ -2,4 +2,5 @@
     <string name="app_name">Fizika School20</string>
     <string name="description">Это порт сайта - проекта по физике для помощи в подготовке к экзаменам, олимпиадам в офлайн формате</string>
     <string name="l_micro">Лаборатория L-micro</string>
+    <string name="bun1">КОМПЛЕКТ 1</string>
 </resources>
