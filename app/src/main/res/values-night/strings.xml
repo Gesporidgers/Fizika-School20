@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Fizika School20</string>
     <string name="description">Это порт сайта - проекта по физике для помощи в подготовке к экзаменам, олимпиадам в офлайн формате</string>
     <string name="l_micro">Лаборатория L-micro</string>
 </resources>
