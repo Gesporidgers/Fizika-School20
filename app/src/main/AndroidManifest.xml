@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FizikaSchool20">
         <activity
+            android:name=".Bundle2"
+            android:exported="false" />
+        <activity
             android:name=".Bundle1"
             android:exported="false" />
         <activity

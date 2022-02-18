@@ -21,4 +21,11 @@ class L_microMain : AppCompatActivity() {
     fun tobundle1(view: View) {
         startActivity(Intent(this, Bundle1::class.java))
     }
+
+    fun tobundle2(view: View) {
+        startActivity(Intent(this, Bundle2::class.java))
+    }
+    fun toSite(view: View) {
+
+    }
 }

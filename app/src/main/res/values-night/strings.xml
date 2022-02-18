@@ -3,4 +3,7 @@
     <string name="description">Это порт сайта - проекта по физике для помощи в подготовке к экзаменам, олимпиадам в офлайн формате</string>
     <string name="l_micro">Лаборатория L-micro</string>
     <string name="bun1">КОМПЛЕКТ 1</string>
+    <string name="bun2">Комплект 2</string>
+    <string name="WIP">В разработке страница комплекта 3</string>
+    <string name="FullOnSite">Указания к выполнению и остальные комплекты можно посмотреть на сайте.</string>
 </resources>
