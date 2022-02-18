@@ -1,7 +1,9 @@
 package com.teovr.fizikaschool20mobile
 
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.teovr.fizikaschool20mobile.databinding.ActivityBundle1Binding
 
@@ -24,6 +26,8 @@ class Bundle1 : AppCompatActivity() {
         adapter.addElement(Bundledesc("Цилиндр пластиковый", "V= (56,0±1,8) см3, m= (66±2) г, обозначить№3, имеет шкалу вдоль образующейся ценой деления 1 мм, длина не менее 80 мм"))
         adapter.addElement(Bundledesc("Цилиндр алюминиевый", "V= (34,0±0,7) см3, m= (95±2) г обозначить №4"))
         init()
+        val path = "android.resource://" + packageName + '/' + R.raw.bundle1
+        binding.BundleVideo.setVideoURI(Uri.parse(path))
 
     }
     private fun init(){
@@ -31,5 +35,12 @@ class Bundle1 : AppCompatActivity() {
             rcView.layoutManager = LinearLayoutManager(this@Bundle1)
             rcView.adapter = adapter
         }
+    }
+
+    fun play(view: View) {
+        binding.BundleVideo.start()
+    }
+    fun pause(view: View) {
+        binding.BundleVideo.pause()
     }
 }
