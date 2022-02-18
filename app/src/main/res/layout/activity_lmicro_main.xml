@@ -133,7 +133,7 @@
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/oswald"
+        android:fontFamily="@font/oswald_bold"
         android:onClick="toSite"
         android:text="На сайт"
         android:textColor="?attr/colorSecondary"

@@ -1,6 +1,7 @@
 package com.teovr.fizikaschool20mobile
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -26,6 +27,7 @@ class L_microMain : AppCompatActivity() {
         startActivity(Intent(this, Bundle2::class.java))
     }
     fun toSite(view: View) {
-
+        val uri = Uri.parse("https://sites.google.com/view/fizika-school20/L-micro")
+        startActivity(Intent(Intent.ACTION_VIEW, uri))
     }
 }
