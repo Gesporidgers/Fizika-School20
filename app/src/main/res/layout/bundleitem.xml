@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:fontFamily="@font/oswald"
         android:text="TextView"
-        android:textColor="@color/black" />
+        android:textColor="?attr/colorSecondary" />
 
     <TextView
         android:id="@+id/p2"
@@ -19,6 +19,6 @@
         android:fontFamily="@font/oswald"
         android:paddingHorizontal="6dp"
         android:text="TextView"
-        android:textColor="@color/black" />
+        android:textColor="?attr/colorSecondary" />
 
 </LinearLayout>
