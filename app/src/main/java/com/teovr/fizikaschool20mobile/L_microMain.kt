@@ -30,4 +30,8 @@ class L_microMain : AppCompatActivity() {
         val uri = Uri.parse("https://sites.google.com/view/fizika-school20/L-micro")
         startActivity(Intent(Intent.ACTION_VIEW, uri))
     }
+
+    fun tobundle3(view: View) {
+        startActivity(Intent(this, Bundle3::class.java))
+    }
 }
