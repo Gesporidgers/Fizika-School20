@@ -25,6 +25,7 @@ class Bundle3 : AppCompatActivity() {
         adapter.addElement(Bundledesc("Соединительные провода, 10шт.", ""))
         adapter.addElement(Bundledesc("Ключ", ""))
         init()
+        val path = "android.resource://"
     }
     private fun init(){
         binding.apply {
