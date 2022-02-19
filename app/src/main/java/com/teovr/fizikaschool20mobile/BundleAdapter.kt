@@ -30,6 +30,6 @@ class BundleAdapter: RecyclerView.Adapter<BundleAdapter.BundleHolder>() {
     }
     fun addElement(bundledesc: Bundledesc){
         deskList.add(bundledesc)
-        notifyDataSetChanged()
+        //notifyDataSetChanged()
     }
 }

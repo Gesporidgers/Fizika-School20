@@ -53,10 +53,10 @@
         android:layout_height="174dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96" />
+        app:layout_constraintVertical_bias="0.976" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/ActionButtonPlay"
@@ -94,8 +94,8 @@
 
     <VideoView
         android:id="@+id/BundleVideo3"
-        android:layout_width="287dp"
-        android:layout_height="417dp"
+        android:layout_width="269dp"
+        android:layout_height="391dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.201"

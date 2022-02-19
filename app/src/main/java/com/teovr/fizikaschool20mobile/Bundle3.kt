@@ -3,6 +3,7 @@ package com.teovr.fizikaschool20mobile
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.teovr.fizikaschool20mobile.databinding.ActivityBundle3Binding
 
 class Bundle3 : AppCompatActivity() {
@@ -23,6 +24,13 @@ class Bundle3 : AppCompatActivity() {
         adapter.addElement(Bundledesc("Переменный резистор (реостат)", "сопротивление 10 Ом"))
         adapter.addElement(Bundledesc("Соединительные провода, 10шт.", ""))
         adapter.addElement(Bundledesc("Ключ", ""))
+        init()
+    }
+    private fun init(){
+        binding.apply {
+            rcView3.layoutManager = LinearLayoutManager(this@Bundle3)
+            rcView3.adapter = adapter
+        }
     }
 
     fun play(view: View) {}
